@@ -1,0 +1,54 @@
+
+AFFILIATION - college team
+conf - NCAA conference
+GP - games played
+Min_per - minutes played per game
+Ortg - offensive rating (points produced every 100 possesions)
+usg - usage rate (an estimate of the percentage of a team's offensive possessions used by an individual player during his time on the floor)
+eFG - adjusted to include 3pts in field goal percentage
+TS_per - measures player's efficency to shoot ball
+ORB_per - offensive rebound percentage
+DRB_per - defensive rebound percentage
+AST_per - assists percentage
+TO_per - turnover percentage
+FTM - free throws made
+FTA - free throw attempts
+FT_per - free throw percentage
+twoPM - two point shots made
+twoPA - two point shots attempts
+twoP_per - two point shot percentage
+TPM - three point shots made
+TPA - three point shot attempts
+TP_per - three point shot percentage
+blk_per - block percentage
+stl_per - steal percentage
+ftr - free throw rate
+yr - player year status (ex: freshman, somphore..)
+porpag - how many points a player creates a game
+adjoe - adjusted offensive efficency
+pfr - drop col
+pid - drop col
+type - position
+Rec Rank - recruiter rank
+ast/tov - assist turnover ratio
+rimmade/(rimmade+rimmiss) - rim made accuracy
+midmade/(midmade+midmiss) - mid made accuracy
+dunksmade/(dunksmade+dunksmiss) - dunk made accuracy
+drtg - defensive rating
+adrtg - adjusted defensive rating
+dporpag - how many points a player stops a game
+stops - a possesion with no points
+bpm - evaluates player contribution by each played
+obpm - evaluates player contribution on offensive
+dbpm - evaluates player contribution on defensive
+gbpm - drop col
+mp - minutes played
+ogbpm - drop col
+dgbpm - drop col
+oreb - offensive rebounds
+dreb - defensive rebounds
+treb - total rebounds
+ast - assists
+stl - steals
+blk - blocks 
+pts - points
