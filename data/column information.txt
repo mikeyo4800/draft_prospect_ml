@@ -26,8 +26,6 @@ ftr - free throw rate
 yr - player year status (ex: freshman, somphore..)
 porpag - how many points a player creates a game
 adjoe - adjusted offensive efficency
-pfr - drop col
-pid - drop col
 type - position
 Rec Rank - recruiter rank
 ast/tov - assist turnover ratio
@@ -41,10 +39,7 @@ stops - a possesion with no points
 bpm - evaluates player contribution by each played
 obpm - evaluates player contribution on offensive
 dbpm - evaluates player contribution on defensive
-gbpm - drop col
 mp - minutes played
-ogbpm - drop col
-dgbpm - drop col
 oreb - offensive rebounds
 dreb - defensive rebounds
 treb - total rebounds
