@@ -27,7 +27,17 @@ This project analyzes the data from [College Baseketball Players Dataset][2]. Th
 
 ## Exploratory Data Analysis and Model Building
 
-This project tests various machine learning models, including Logistic Regression, Decision Tree, K-Nearest Neighbor, Random Forest, Extra Trees, and various other ensemble methods. We first created the baseline models with basic parameters to analyze how the predictors performed. Then we performed exploratory data analysis on all predictors to see if there were any basketball stats that shown significant differences between round 1 players and round 2 players. Ultimately, we discovered 11 variables that shown significant differences between both classes using Welsch's t-Test.  
+This project tests various machine learning models, including Logistic Regression, Decision Tree, K-Nearest Neighbor, Random Forest, Extra Trees, and various other ensemble methods. We first created the baseline models with basic parameters to analyze how the predictors performed. Then we performed exploratory data analysis on all predictors to see if there were any basketball stats that shown significant differences between round 1 players and round 2 players. Ultimately, we discovered 11 variables that shown significant differences between both classes using Welsch's t-Test. 
+
+For example:
+
+![bpm.png](images/bpm.png)
+
+The chart illustrates a difference between the mean of bpm stat between college players who were drafted in round 1 compared to round 2. We stated our null hypothesis, randomly sampled both populations, declared a significance value of 0.05, and perfomred a Welch's t-test. The p-value recorded attained was 6.98917383744234e-08 so clearly we were able to reject the null hypothesis, that is, there is no significant different between both populations.
+
+These were all the variables that we rejected the null hypothesis of.
+
+![p_val_charts.png](images/p_vals_chart.png)
 
 After finding the best predictors, we then applied hyperparameter tuning on different models using the Pipeline, GridSearchCV, and RandomizedSearchCV classes to optimize accuracy score on the test data. We further optimize by combining the tuned models into various ensemble models such as StackerClassifier and AdaBoosting.
 
@@ -36,6 +46,7 @@ After finding the best predictors, we then applied hyperparameter tuning on diff
 After many tests, the best model is GradientBoosting from sklearn.ensemble. We reached 85% accuracy scores on testing data and 79 % validation on training data.
 
 ## Next Steps
+
 Further analyses could yield additional insights to improve to our predicition models:
 
 - Drafted players performance in NBA: Compare players’ performance in NBA vs College to predict whether college performance predicts NBA performance.
