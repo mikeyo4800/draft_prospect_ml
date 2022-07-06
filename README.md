@@ -1,5 +1,9 @@
 # NBA Draft Prediction for 2022 Class
 
+[3]: https://mikeyo4800-streamlit-apps-test-ept0a0.streamlitapp.com/ "Streamlit App"
+
+To see the model in production, visit our [Streamlit App][3]
+
 ## Business Goal
 
 The New York Knicks have been struggling for years to perform competitvely in the league for a long time. There are several ways to build a team through the draft, free agency, and trades. Ideally, there would be a balance between the methods. Unfortunately, the Knicks haven't been successful with their young players to build through the draft. The last player drafted by the Knicks to sign a multi-year deal after rookie deal was Charlie Ward, who was drafted in 1994.
